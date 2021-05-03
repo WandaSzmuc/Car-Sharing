@@ -285,3 +285,56 @@ margin-right: 10px;
     color:var(--secondary-font-color) ;
 }
 
+/* SECTION CONTACT */
+.contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.main_contact{
+    display: flex;
+}
+.main_contact_element{
+    width: 50%;
+    margin: 10px;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+}
+
+.write{
+    padding:10px;
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid var(--secondary-font-color);
+    
+}
+.write:focus {
+    border-color: var(--main-color);
+    box-shadow: 0px 1px 6px #FF00004D;
+  }
+  ::-webkit-input-placeholder { 
+    font-family: 'Nunito Sans','Open Sans', sans-serif;
+    color:var(--secondary-font-color);
+    font-size: 20px;
+  
+}
+
+.agree_form{
+    display:flex;
+}
+
+.contact_form_button{
+    align-self: flex-end;
+    color:var(--main-color);
+    text-decoration: none;
+    padding: 10px 55px;
+    border: 1px solid var(--main-color);
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: 0px 3px 6px #FF00004D;
+}
