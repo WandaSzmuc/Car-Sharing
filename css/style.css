@@ -310,12 +310,12 @@ margin-right: 10px;
     border-radius: 5px;
     margin: 5px;
     border: 1px solid var(--secondary-font-color);
-    
 }
-.write:focus {
+ .write:focus{
     border-color: var(--main-color);
-    box-shadow: 0px 1px 6px #FF00004D;
+    box-shadow: 0px 4px 10px #FF00004D;
   }
+
   ::-webkit-input-placeholder { 
     font-family: 'Nunito Sans','Open Sans', sans-serif;
     color:var(--secondary-font-color);
@@ -353,7 +353,6 @@ margin-right: 10px;
   .agree_form input:checked + i{
     color: var(--main-color);
   }
-
 
   .contact_form_button{
     margin-top: 15px;
