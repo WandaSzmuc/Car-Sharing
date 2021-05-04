@@ -325,9 +325,38 @@ margin-right: 10px;
 
 .agree_form{
     display:flex;
+    margin-top: 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items:baseline;
 }
 
-.contact_form_button{
+.agree_form p{
+    margin-left: 10px;
+    font-size: 12px;
+    color:var(--secondary-font-color)
+}
+.agree_form i{
+    border: 1px solid var(--main-font-color);
+    border-radius: 5px;
+    padding: 2px;
+    color: white;
+}
+
+.agree_form input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .agree_form input:checked + i{
+    color: var(--main-color);
+  }
+
+
+  .contact_form_button{
+    margin-top: 15px;
     align-self: flex-end;
     color:var(--main-color);
     text-decoration: none;
